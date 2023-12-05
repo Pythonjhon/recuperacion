@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>loguea para nuestro hotel</title>
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="icon" type="image/x-icon" href="/IMG/logo.jpg" />
+
+
+  </head>
+  <body>
+
+    <div class="login-box">
+      <img src="/IMG/logo.jpg" class="avatar" alt="Avatar Image">
+      <h1>Reserva cliente </h1>
+      <form action="/HTML/main.html">
+        
+        <label for="username" >Nombre y Apellido</label>
+        <input type="text" placeholder="Ingrese nombre">
+        <label for="username">Correo Electronico</label>
+        <input type="text"  placeholder="Ingrese el correo Electronico">
+        <label for="username">Targeta de credito</label>
+        <input type="password" placeholder="Numero de telefono">
+        <label for="username">Tipo de habitacion</label>
+        <select name="" id="" required>
+          <option value="individual">individual</option>
+          <option value="doble">Doble</option>
+          <option value="suite">suite</option>
+        </select>
+        <label for="habitacion">Opciones</label>
+    <select id="habitacion" name="habitacion" required>
+    <option value="individual">Fumadores</option>
+    <option value="individual">No Fumadores</option>
+    </select>
+        <label for="fecha-llegada">Fecha de llegada:</label>
+    <input type="date" id="fecha-llegada" name="fecha-llegada" required>
+
+    <label for="fecha-salida">Fecha de salida:</label>
+    <input type="date" id="fecha-salida" name="fecha-salida" required>
+
+    <label for="adultos">Número de adultos:</label>
+    <input type="number" id="adultos" name="adultos" min="1" required>
+
+    <label for="ninos">Número de niños:</label>
+    <input type="number" id="ninos" name="ninos" min="0" required>
+
+        
+        <input class="button" type="submit" value="Aceptar reserva">
+          <form action="/HTML/reservado.html">
+          </form>
+        <a href="/HTML/reservado.html"><b>reserva empresa</b></a>
+      </form>
+    </div>
+
+  </body>
+</html>

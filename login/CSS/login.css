@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(/IMG/fondo2.jpg) no-repeat center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    width: 400px;
+    height: 850px; 
+    position: relative;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.15);
+    text-align: center;
+  }
+  
+  .login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-box h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 130px;
+    margin-block-end: 10%;
+  }
+  .login-box img{
+    margin-top: 20%;
+  }
+  
+  .login-box .small-image {
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 120px; 
+    height: 120px; 
+    background: url(ruta-de-la-imagen.png) no-repeat center top;
+    background-size: cover;
+  }
+  
+  .login-box label {
+    margin: 10px ;
+    font-weight: bold;
+    display: block;
+    color: #f5f5f5;
+    text-align: left;
+    margin-block-start: 1px;
+    
+  }
+
+  .login-box .clave{
+    margin-top: 10%;
+  }
+ 
+  
+  .login-box input[type="text"],
+  .login-box input[type="password"] {
+    border: none;
+    background: rgba(248, 247, 247, 0);
+    background-color: rgb(194, 188, 188);
+    outline: none;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0 15px;
+    width: 100%;
+    color: #fff;
+    
+    margin: 1px ;
+  }
+  
+  .login-box .button {
+    background: rgba(33, 68, 182, 0.8);
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 25px;
+    color: #e2eaec;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    width: 100%;
+    margin-top: 35px;
+  }
+  
+  .login-box .button:hover {
+    background: rgb(74, 130, 233);
+    transition: color 0.3s ease;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: #f3ecec;
+    transition: color 0.3s ease;
+    
+    
+  }
+  
+  .login-box a:hover {
+    color: #ac88db;
+  }
+  
